@@ -1,0 +1,114 @@
+body{
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: goldenrod
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:orange
+  }
+  
+  .active {
+    background-color: blueviolet
+  }
+
+
+span{
+    color: darkorange;
+}
+.flex-container{
+
+display:flex
+
+}
+.skip{
+
+    width: 50%;
+    margin-top: 100px;
+    padding-left: 20px;
+}
+.skip img{
+
+    width: 80%;
+    padding-left: 15%;
+}
+.button{
+text-decoration: none;
+background-image: linear-gradient( to right,rgb(142, 85, 196),rgb(156, 156, 88));
+border-radius: 40px;
+color: white;
+font-weight: 600;
+padding: 15px 35px;
+margin-top: 100px;
+}
+.two{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+
+.food{
+    width: 20%;
+}
+.box{
+width: 25%;
+margin: 30px 20px;
+padding: 20px 30px;
+border-radius: 8px;
+box-shadow: 8
+}
+.flx{
+    display: flex;
+    margin-bottom: 100px;
+}
+    
+.food{
+    width: 25%;
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 100px;
+    padding-left: 70px;
+    border-radius: 10px;
+}
+#recipies{
+text-align: center;
+
+}
+#recipies{
+    margin-top: 100px;
+}
+h2{
+    text-align: center;
+}
+.optional{
+display: flex;
+box-shadow: 10px 10px 10px 10px gray;
+margin: 10px 10px;
+border-radius: 10px;
+margin-top: 100px;
+}
+footer{
+background: black;
+color: white;
+text-align: center;}
